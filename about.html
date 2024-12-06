@@ -14,15 +14,27 @@
             padding: 50px;
             color: white;
             font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 100vh;
+            text-align: center;
         }
         #about {
             background-image: url('https://images.unsplash.com/photo-1506748686211-0b9c64a0d7d2?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080');
             background-size: cover;
             background-position: center;
         }
+        .box {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+        }
         h2 {
             font-size: 3rem;
+            margin-bottom: 20px;
         }
         a {
             color: #007bff;
@@ -32,11 +44,13 @@
 </head>
 <body>
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Motivated final-year student pursuing a degree in B.Tech CSE - Data Science with a strong foundation in data analytics and a passion for leveraging data to drive decision-making. Proficient in Python, SQL, and data analysis tools such as Microsoft Excel. Key projects include a Real Estate Market Analysis of housing trends in Bangalore, Chennai, and Hyderabad using Python, and Netflix Movies and Series Analysis in Excel, creating dynamic PivotTables and deriving insights on genres and ratings. Eager to contribute analytical skills and collaborate in a dynamic team environment to support data-driven strategies.
-        </p>
-        <button onclick="window.location.href='index.html'">Back to Home</button>
+        <div class="box">
+            <h2>About Me</h2>
+            <p>
+                Motivated final-year student pursuing a degree in B.Tech CSE - Data Science with a strong foundation in data analytics and a passion for leveraging data to drive decision-making. Proficient in Python, SQL, and data analysis tools such as Microsoft Excel. Key projects include a Real Estate Market Analysis of housing trends in Bangalore, Chennai, and Hyderabad using Python, and Netflix Movies and Series Analysis in Excel, creating dynamic PivotTables and deriving insights on genres and ratings. Eager to contribute analytical skills and collaborate in a dynamic team environment to support data-driven strategies.
+            </p>
+            <button onclick="window.location.href='index.html'">Back to Home</button>
+        </div>
     </section>
 </body>
 </html>
